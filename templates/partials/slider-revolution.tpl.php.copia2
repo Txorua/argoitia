@@ -1,0 +1,347 @@
+    <div class="slider-container">
+      <div class="slider" id="revolutionSlider">
+
+        <ul>
+
+	  <li data-transition="fade"
+              data-slotamount="10"
+              data-masterspeed="300">
+              <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-bg.jpg" data-fullwidthcentering="on" alt="">
+
+	      <div class="caption top-label lfb stt tp-caption start"
+                   data-x="42"
+                   data-y="165"
+                   data-speed="500"
+                   data-start="50"
+                   data-easing="easeOutExpo">Getaria Turismo</div>
+                                      
+              <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="42"
+                   data-y="250"
+                   data-speed="500"
+                   data-start="1500"
+                   data-easing="easeOutExpo">- Gran Patrimonio Histórico.</div>
+
+	      <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="42"
+                   data-y="300"
+                   data-speed="500"
+                   data-start="2100"
+                   data-easing="easeOutExpo">- Gastronómica única.</div>
+
+              <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="42"
+                   data-y="350"
+                   data-speed="500"
+                   data-start="2700"
+                   data-easing="easeOutExpo">- Oferta Cultural. </div>
+
+              <div class="caption main-label sft stb tp-caption start"
+                   data-x="42"
+                   data-y="440"
+                   data-speed="500"
+                   data-start="3300"
+                   data-easing="easeOutExpo">
+                   <a href="#">UN LUGAR ESPECIAL...</a></div>
+                                          
+	      <div class="caption fade tp-caption start"
+                   data-x="450"
+                   data-y="135"
+                   data-speed="500"
+                   data-start="3500"
+                   data-easing="easeOutExpo">
+                   <a href="#"></a></div>
+                                                                                 
+              <div class="caption fade tp-caption start"
+                   data-x="450"
+                   data-y="240"
+                   data-speed="250"
+                   data-start="4000"
+                   data-easing="easeOutExpo">
+                   <a href="#">
+                     <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide1.jpg" alt="">
+                   </a>
+              </div>
+            </li>
+                               
+	    <li data-transition="fade"
+                data-slotamount="10"
+                data-masterspeed="300">
+		  <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide3-bg.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+
+		<div class="caption main-label sft stb tp-caption start"
+                     data-x="92"
+                     data-y="165"
+                     data-speed="250"
+                     data-start="500"
+                     data-easing="easeOutExpo">
+                     <a href="#">GASTRONOMIA</a>
+		</div>
+
+                <div class="caption bottom-label sft stb tp-caption start"
+                     data-x="92"
+                     data-y="250"
+                     data-speed="500"
+                     data-start="2500"
+                     data-easing="easeOutExpo">desde el mar..</div>
+					 
+				 <div class="caption bottom-label sft stb tp-caption start"
+                     data-x="92"
+                     data-y="300"
+                     data-speed="500"
+                     data-start="3500"
+                     data-easing="easeOutExpo"> para saborearlo frente a él...</div>
+
+                <div class="caption fade tp-caption start"
+                     data-x="450"
+                     data-y="150"
+                     data-speed="250"
+                     data-start="1500"
+                     data-easing="easeOutExpo">
+                     <a href="#">
+                       <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide2.jpg" alt="">
+                     </a>
+                </div>
+
+            </li>
+
+	    <li data-transition="fade"
+                data-slotamount="10"
+                data-masterspeed="300">
+                  <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide7-bg.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+
+		<div class="caption fade tp-caption start"
+                     data-x="92"
+                     data-y="165"
+                     data-speed="500"
+                     data-start="200"
+                     data-easing="easeOutExpo">
+                     <a href="#">
+                       <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide_historico.jpg" alt="">
+                     </a>
+                </div>
+                                        
+		<div class="caption main-label sft stb tp-caption start"
+                     data-x="550"
+                     data-y="165"
+                     data-speed="700"
+                     data-start="1500"
+                     data-easing="easeOutExpo">
+                     <a href="#">PATRIMONIO</a>
+                </div>
+
+		<div class="caption bottom-label sft stb tp-caption start"
+                     data-x="550"
+                     data-y="250"
+                     data-speed="700"
+                     data-start="2300"
+                     data-easing="easeOutExpo">Un patrimonio histórico, <br> con mucho que contarte.</div>
+
+                <div class="caption bottom-label sft stb tp-caption start"
+                     data-x="550"
+                     data-y="325"
+                     data-speed="700"
+                     data-start="3300"
+                     data-easing="easeOutExpo">Siglos de historia vasca <br> por descubrir.</div>
+
+            </li>
+
+	   <li data-transition="fade"
+	       data-slotamount="10"
+               data-masterspeed="300">
+                 <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-bg.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+
+	       <div class="caption fade tp-caption start"
+                    data-x="92" 
+					data-y="165"
+                    data-speed="500"
+		            data-start="200"
+                    data-easing="easeOutExpo">
+                    <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide3.jpg" alt="">
+	       </div>
+
+	       <div class="caption main-label sft stb tp-caption start"
+                    data-x="550"
+                    data-y="220"
+                    data-speed="250"
+                    data-start="1700"
+                    data-easing="easeOutExpo">PERSONAJES <br><br> ILUSTRES</div>
+
+           </li>
+
+           <li data-transition='fade' data-slotamount='10' data-masterspeed='300'>
+             <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide8-bg.jpg" data-fullwidthcentering='on' alt=''>
+                                       
+             <div class='caption fade'
+                  data-x='450'
+                  data-y='135'
+                  data-speed='500'
+                  data-start='5000'
+                  data-easing='easeOutExpo'>
+                  <a href="#"></a></div>
+                                             
+             <div class='caption fade'
+                  data-x='92'
+                  data-y='165'
+                  data-speed='250'
+                  data-start='50'
+                  data-easing='easeOutExpo'>
+                  <a href="#">
+	            <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide8.jpg" alt=''>
+                  </a>
+             </div>
+                                     
+             <div class='caption main-label sft stb'
+                  data-x='550'
+                  data-y='165'
+                  data-speed='300'
+                  data-start='1000'
+                  data-easing='easeOutExpo'>MUSEO BALENCIAGA</div>
+                                 
+             <div class='caption bottom-label sft stb'
+                  data-x='550'
+                  data-y='230'
+                  data-speed='500'
+                  data-start='2000'
+                  data-easing='easeOutExpo'>- Exposición permanente</div>
+
+             <div class='caption bottom-label sft stb'
+                  data-x='550'
+                  data-y='280'
+                  data-speed='500'
+                  data-start='3000'
+                  data-easing='easeOutExpo'>- Auditorio</div>
+                                             
+             <div class='caption bottom-label sft stb'
+                  data-x='550'
+                  data-y='330'
+                  data-speed='500'
+                  data-start='4000'
+                  data-easing='easeOutExpo'>- Centro de documentación </div>
+                                            
+             <div class='caption bottom-label sft stb'
+                  data-x='550'
+                  data-y='380'
+                  data-speed='500'
+                  data-start='5000'
+                  data-easing='easeOutExpo'>- Biblioteca</div>
+                                             
+           </li>
+
+	   <li data-transition="fade"
+               data-slotamount="10"
+               data-masterspeed="300">
+		 <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide6-bg.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+
+	       <div class="caption main-label sft stb tp-caption start"
+		            data-x="550"
+                    data-y="165"
+		            data-speed="350"
+                    data-start="1500"
+                    data-easing="easeOutExpo">ENTORNO NATURAL</div>
+                                             
+	      <div class="caption fade tp-caption start"
+                   data-x="92"
+                   data-y="165"
+                   data-speed="350"
+                   data-start="500"
+                   data-easing="easeOutExpo">
+		   <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide4.jpg" alt="">
+              </div>
+
+              <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="250"
+                   data-speed="350"
+                   data-start="2500"
+                   data-easing="easeOutExpo">- Productos de la tierra</div>
+
+	      <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="300"
+                   data-speed="350"
+                   data-start="3500"
+		   data-easing="easeOutExpo">- Un paisaje propio y variado</div>
+
+              <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="350"
+                   data-speed="350"
+                   data-start="4500"
+                   data-easing="easeOutExpo">- Entre la tierra y el mar.</div>
+                                             
+          </li>
+
+	  <li data-transition="fade"
+              data-slotamount="10"
+	      data-masterspeed="300">
+		<img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide5-bg.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+
+	      <div class="caption fade tp-caption start"
+                   data-x="450"
+                   data-y="165"
+                   data-speed="250"
+                   data-start="5000"
+                   data-easing="easeOutExpo">
+                   <a href="#"></a></div>
+                                             
+              <div class="caption fade tp-caption start"
+                   data-x="92"
+                   data-y="165"
+                   data-speed="250"
+                   data-start="500"
+                   data-easing="easeOutExpo">
+                   <a href="#">
+                     <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide5.jpg" alt="">
+                   </a>
+              </div>
+                                       
+	      <div class="caption main-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="165"
+                   data-speed="300"
+                   data-start="1500"
+                   data-easing="easeOutExpo">PUERTO DE GETARIA</div>
+                                 
+	      <div class="caption bottom-label sft stb tp-caption start"
+		           data-x="550"
+                   data-y="250"
+                   data-speed="500"
+                   data-start="2500"
+                   data-easing="easeOutExpo">- Pesca tradiciónal, lonja.</div>
+
+	      <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="300"
+                   data-speed="500"
+                   data-start="3500"
+                   data-easing="easeOutExpo">- Puerto Deportivo.</div>
+		   
+	      <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="350"
+                   data-speed="500"
+                   data-start="4500"
+                   data-easing="easeOutExpo">- Servicios portuarios.</div>
+				
+	      <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="400"
+                   data-speed="500"
+                   data-start="5500"
+                   data-easing="easeOutExpo">- Restaurantes y su Gastronomía.</div>
+				
+	      <div class="caption bottom-label sft stb tp-caption start"
+                   data-x="550"
+                   data-y="450"
+                   data-speed="500"
+                   data-start="6500"
+                   data-easing="easeOutExpo">- Del mar a la mesa.</div>
+				
+            </li>
+
+          </ul>
+
+      </div>
+    </div><!-- fin slider -->
+

@@ -1,0 +1,334 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 0px; /*40px;*/
+  color: #5a5a5a;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#navbar {
+  margin-top: 0;
+}
+
+div.home-intro {
+    background-color : #171717;
+    margin-bottom    : 60px;
+    overflow         : hidden;
+    padding          : 20px 0 10px;
+    position         : relative;
+    text-align       : left;
+    color            : #fff;
+}
+div.home-intro p em {
+    color: #33cc00;
+}
+div.home-intro p em {
+    font-family: "Shadows Into Light",cursive;
+    font-size: 1.6em;
+    letter-spacing: 0.15em;
+}
+
+footer {
+ background: none repeat scroll 0 0 #121214;
+ border-top: 4px solid #1f1f1f;
+ font-size: 0.9em;
+ margin-top: 70px;
+ padding: 80px 0 0;
+ position: relative;
+}
+footer.footer {
+  position: relative;
+  //background-color : #171717;
+}
+footer div.footer-ribon:before {
+  border-right: 10px solid #646464;
+  border-top: 16px solid transparent;
+  content: "";
+  display: block;
+  height: 0;
+  left: -10px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+footer div.footer-ribon:before {
+  border-right-color: #336600;
+}
+footer div.footer-ribon {
+  background: none repeat scroll 0 0 #339900;
+  margin: -100px 0 0;
+  padding: 10px 20px 6px;
+  position: relative;
+  width: 200px;
+}
+footer div.footer-ribon span {
+  color: #fff;
+  font-family: "Shadows Into Light",cursive;
+  font-size: 1.6em;
+  letter-spacing: 0.15em;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 200;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar.navbar-inverse {
+    background-color: rgba(0, 0, 0, 1);
+}
+.navbar-wrapper .navbar.navbar-inverse a {
+    color: white;
+}
+.navbar-wrapper .navbar.navbar-inverse .dropdown-menu {
+    background-color: rgba(0, 0, 0, 1);
+}
+.navbar-wrapper .navbar.navbar-inverse .dropdown-menu a {
+    color: #fff;
+}
+.navbar-wrapper .navbar.navbar-inverse .dropdown-menu a:hover {
+    background-color: rgba(204, 204, 204, 0.8);
+    color: black;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 540px;
+  /*margin-botom: 60px;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 540px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /*min-width: 1140px;*/
+  height: 540px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/**
+ * Flexslider Zoom Gallery
+ */
+.popup-gallery img {
+  -webkit-transition: all 0.25s ease-in-out 0;
+  -moz-transition: all 0.25s ease-in-out 0;
+  -o-transition: all 0.25s ease-in-out 0;
+  transition: all 0.25s ease-in-out 0s;
+}
+.popup-gallery a:hover img {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5)
+  transform: scale(1.5);
+  z-index: 100;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0.001;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+/**
+ * Eventos
+ */
+div.recent-posts h4{margin-bottom:2px;}
+div.recent-posts div.date{float:left;margin-right:10px;margin-top:8px;text-align:center;}
+div.recent-posts div.date span.month{-moz-border-radius:0 0 2px 2px;-moz-box-shadow:0 -1px 0 0 rgba(0, 0, 0, 0.07) inset;-webkit-border-radius:0 0 2px 2px;-webkit-box-shadow:0 -1px 0 0 rgba(0, 0, 0, 0.07) inset;background:#CCC;border-radius:0 0 2px 2px;box-shadow:0 -1px 0 0 rgba(0, 0, 0, 0.07) inset;color:#FFFFFF;font-size:0.9em;padding:0 10px 2px;}
+div.recent-posts div.date span.day{background:#FFF;color:#CCC;display:block;font-size:18px;font-weight:500;font-weight:bold;padding:8px;}
+div.recent-posts article.recent-post h4{margin:0 0 3px 0;}
+div.recent-posts article.recent-post h4 a{display:block;}
+div.recent-posts div.date span.month,article.post div.post-date span.month{background-color:#339900;}
+div.recent-posts div.date span.day,article.post div.post-date span.day{color:#339900;}
+
+/**
+ * Revolution Slider
+ */
+div.slider-container,
+div.slider-container>div.slider>div.tp-bannertimer {
+  margin-left:-20px;
+  margin-right:-20px;
+  padding-left:20px;
+  padding-right:20px;
+}
+div.slider-container{background:#666;height:500px; max-height:500px;overflow:hidden;padding:0;position:relative;}
+div.slider-container ul{list-style:none;margin:0;padding:0;}
+div.slider{height:500px;max-height:450px;position:relative;}
+div.slider div.tp-bannertimer{background-color:#CCC;background-position:0 -13px;top:0;height:7px;}
+div.slider-container{background:#171717;}
+div.slider-container div.caption{filter:alpha(opacity=0);opacity:0;}
+div.slider-container div.top-label{
+	color: #FFF;
+	font-size: 36px;
+	font-weight: 300;
+}
+div.slider-container div.main-label{
+	color: #FFF;
+	font-size: 36px;
+	font-weight: 800;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+div.slider-container div.bottom-label{
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 300;
+}
+div.slider-container div.caption a,div.slider-container div.caption a:hover{color:#FFF;}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 1024px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 15px; /*0;*/
+    padding-left:  15px; /*0;*/
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .navbar-wrapper .navbar.navbar-inverse {
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .navbar-wrapper .navbar-header, 
+  .navbar-wrapper .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    border: solid 1px #666;
+  }
+
+  .navbar-wrapper .pull-left {
+    float: right !important;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
