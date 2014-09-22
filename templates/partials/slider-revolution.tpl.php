@@ -6,7 +6,7 @@
 		<li data-transition="fade"
               data-slotamount="10"
               data-masterspeed="300">
-              <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-bg-0.jpg" style="img-responsive"  data-fullwidthcentering="on" alt="">
+              <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-bg-0.jpg" class="img-responsive"  data-fullwidthcentering="on" alt="">
 			  
 			                                                                                          
               

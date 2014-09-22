@@ -344,8 +344,8 @@ div.slider-container>div.slider>div.tp-bannertimer {
   padding-left:20px;
   padding-right:20px;*/
 }
-div.slider-container{background:#666; width:100%;  height:450px; min-height:450; overflow:hidden;padding:0;position:relative;}
-div.slider-container ul{list-style:none;margin:0;padding:0;width:100%;height:450px; min-height:450;}
+div.slider-container{background:#666; width:100%;  height:350px; min-height:350px; overflow:hidden;padding:0;position:relative;}
+div.slider-container ul{list-style:none;margin:0;padding:0;width:100%;height:350px; min-height:350;}
 div.slider{position:relative;}
 div.slider div.tp-bannertimer{background-color:#CCC;background-position:0 -13px;top:0;height:7px;}
 div.slider-container{background:#171717;}
