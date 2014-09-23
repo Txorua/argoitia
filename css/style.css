@@ -515,6 +515,7 @@ div.slider-container div.caption a,div.slider-container div.caption a:hover{colo
 /**
  * Vista restaurantes
  */
+.panel-group .container.restaurantes .panel,
 .container.restaurantes .fotos,
 .container.restaurantes .geo {
   margin-top: 1em;
