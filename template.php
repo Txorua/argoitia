@@ -185,7 +185,7 @@ function argoitia_preprocess_views_view_fields(&$variables) {
     }
   }
 
-  $tipos = array('restaurantes', 'bares', 'comercios');
+  $tipos = array('bares', 'comercios');
   //if ($view->name == 'restaurantes' && $view->field['title_field']) {
   if (in_array($view->name, $tipos) && $view->field['title_field']) {
     //kpr($variables);
