@@ -57,7 +57,7 @@
       <?php endif; ?>
       <?php if ($row->field_field_galeria_fotos): ?>
          <div class="container">
-           <div class="row">
+           <div class="row fotos">
           <?php foreach($row->field_field_galeria_fotos as $id => $photo): ?>
             <div class="col-xs-4">
             <img class="photo img-responsive" src="<?php print file_create_url($photo['raw']['uri']); ?>" typeof="foaf:Image" />
@@ -67,7 +67,9 @@
          </div>
       <?php endif; ?>
       <?php if ($fields['field_geo']): ?>
+        <div class="geo">
         <?php print $fields['field_geo']->content; ?>
+        </div>
       <?php endif; ?>
       </div>
     </div>

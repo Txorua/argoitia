@@ -513,6 +513,15 @@ div.slider-container div.caption a,div.slider-container div.caption a:hover{colo
 */
 
 /**
+ * Vista restaurantes
+ */
+.container.restaurantes .fotos,
+.container.restaurantes .geo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/**
  * Content language links
  *
  * Están activos por defevto y no se pueden desactivar debido a
