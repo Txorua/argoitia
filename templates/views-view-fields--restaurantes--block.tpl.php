@@ -35,8 +35,8 @@
 
     <div id="restaurantes-accordion-<?php print $row->nid; ?>" class="panel-collapse collapse in">
       <div class="panel-body">
-      <?php if ($fields['field_descripcion']): ?>
-      <div class="h4">
+      <?php if ($fields['field_descripcion']->content): ?>
+      <div class="h4 breadcrumb">
         <?php print $fields['field_descripcion']->content; ?>
       </div>
       <?php endif; ?>
