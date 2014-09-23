@@ -33,7 +33,7 @@
       </h4>
     </div>
 
-    <div id="restaurantes-accordion-<?php print $row->nid; ?>" class="panel-collapse collapse in">
+    <div id="restaurantes-accordion-<?php print $row->nid; ?>" class="panel-collapse collapse">
       <div class="panel-body">
       <?php if ($fields['field_descripcion']->content): ?>
       <div class="h4 breadcrumb">
@@ -67,9 +67,9 @@
          </div>
       <?php endif; ?>
       <?php if ($fields['field_geo']): ?>
-        <div class="geo">
-        <?php print $fields['field_geo']->content; ?>
-        </div>
+        <!--<div class="geo">-->
+        <?php //print $fields['field_geo']->content; ?>
+        <!--</div>-->
       <?php endif; ?>
       </div>
     </div>
