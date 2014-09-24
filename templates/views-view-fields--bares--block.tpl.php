@@ -24,15 +24,56 @@
  * @ingroup views_templates
  */
 ?>
-<div class="panel panel-default">
-<?php foreach ($fields as $id => $field): ?>
-  <?php if (!empty($field->separator)): ?>
-    <?php print $field->separator; ?>
-  <?php endif; ?>
+<div class="col-xs-12">
+  <div class="panel panel-default vcard">
 
-  <?php print $field->wrapper_prefix; ?>
-    <?php print $field->label_html; ?>
-    <?php print $field->content; ?>
-  <?php print $field->wrapper_suffix; ?>
-<?php endforeach; ?>
+    <div class="panel-heading">
+      <h4 class="panel-title fn">
+        <a data-toggle="collapse" data-parent="#bares-accordion" href="#bares-accordion-<?php print $row->nid; ?>"><?php print $fields['title_field']->content; ?></a>
+      </h4>
+    </div>
+
+    <div id="bares-accordion-<?php print $row->nid; ?>" class="panel-collapse collapse">
+      <div class="panel-body">
+      <?php if ($fields['field_descripcion']->content): ?>
+      <div class="h4 breadcrumb">
+        <?php print $fields['field_descripcion']->content; ?>
+      </div>
+      <?php endif; ?>
+      <?php if ($row->field_field_direccion): ?>
+        <div class="h4">
+          <p class="street-address"><?php print $row->field_field_direccion[0]['raw']['thoroughfare']; ?></p>
+          <p><span class="postal-code"><?php print $row->field_field_direccion[0]['raw']['postal_code']; ?></span> &mdash; <span class="locality"><?php print $row->field_field_direccion[0]['raw']['locality']; ?></span></p>
+          <p class="tel" title="<?php print $row->field_field_direccion[0]['raw']['phone_number']; ?>"><?php print $row->field_field_direccion[0]['raw']['phone_number']; ?></p>
+          <p class="fax" title="<?php print $row->field_field_direccion[0]['raw']['fax_number']; ?>"><?php print $row->field_field_direccion[0]['raw']['fax_number']; ?></p>
+          <p class="tel" title="<?php print $row->field_field_direccion[0]['raw']['mobile_number']; ?>"><?php print $row->field_field_direccion[0]['raw']['mobile_number']; ?></p>
+        </div>
+      <?php endif; ?>
+      <?php if ($row->field_field_email): ?>
+        <p class="h4"><a class="email" href="mailto:<?php print $row->field_field_email[0]['raw']['email']; ?>"><?php print $row->field_field_email[0]['raw']['email']; ?></a></p>
+      <?php endif; ?>
+      <?php if ($row->field_field_web): ?>
+        <p class="h4"><a href="<?php print $row->field_field_web[0]['raw']['url']; ?>"><?php print str_replace("http://","",$row->field_field_web[0]['raw']['url']); ?></a></p>
+      <?php endif; ?>
+      <?php if ($row->field_field_galeria_fotos): ?>
+         <div class="container">
+           <div class="row fotos">
+          <?php foreach($row->field_field_galeria_fotos as $id => $photo): ?>
+            <div class="col-xs-4">
+            <img class="photo img-responsive" src="<?php print file_create_url($photo['raw']['uri']); ?>" typeof="foaf:Image" />
+            </div>
+          <?php endforeach; ?>
+          </div>
+         </div>
+      <?php endif; ?>
+      <?php if ($fields['field_geo']): ?>
+        <!--<div class="geo">-->
+        <?php //print $fields['field_geo']->content; ?>
+        <!--</div>-->
+      <?php endif; ?>
+      </div>
+    </div>
+
+  </div>
 </div>
+

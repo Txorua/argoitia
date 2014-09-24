@@ -520,6 +520,34 @@ div.slider-container div.caption a,div.slider-container div.caption a:hover{colo
 .container.restaurantes .geo {
   margin-top: 1em;
   margin-bottom: 1em;
+}/**
+ * Vista restaurantes
+ */
+.panel-group .container.restaurantes .panel,
+.container.restaurantes .fotos,
+.container.restaurantes .geo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/**
+ * Vista bares
+ */
+.panel-group .container.bares .panel,
+.container.bares .fotos,
+.container.bares .geo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/**
+ * Vista comercios
+ */
+.panel-group .container.comercios .panel,
+.container.comercios .fotos,
+.container.comercios .geo {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /**

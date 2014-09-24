@@ -185,16 +185,6 @@ function argoitia_preprocess_views_view_fields(&$variables) {
     }
   }
 
-  $tipos = array('bares', 'comercios');
-  //if ($view->name == 'restaurantes' && $view->field['title_field']) {
-  if (in_array($view->name, $tipos) && $view->field['title_field']) {
-    //kpr($variables);
-    $content = $variables['fields']['title_field']->content;
-    $variables['fields']['title_field']->content = '<section class="toggle"><label>' . $content . '</label>'; 
-   // $content = $variables['fields']['body']->content;
-    //$variables['fields']['body']->content = '<div class="toggle-content">' . $content . '</div></section>'; 
-  }
-
   $tipos = array('hoteles', 'agroturismos', 'pensiones', 'casas_rurales', 'albergues');
   if (in_array($variables['view']->name, $tipos)) {
     $servicios = array(
