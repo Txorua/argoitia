@@ -167,7 +167,7 @@
 									container.append('<div class="tp-loader"></div>');
 
 									// RESET THE TIMER
-									if (container.find('.tp-bannertimer').length==0) container.append('<div class="tp-bannertimer" style="visibility:hidden"></div>');
+									if (container.find('.tp-bannertimer').length==0) container.append('<div class="tp-bannertimer" style="visibility:hiidden"></div>');
 									var bt=container.find('.tp-bannertimer');
 									if (bt.length>0) {
 										bt.css({'width':'0%'});

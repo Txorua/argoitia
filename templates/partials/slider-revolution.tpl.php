@@ -1,4 +1,4 @@
-    <div class="slider-container">
+    <div class="fullwidthbanner-container slider-container">
       <div class="slider" id="revolutionSlider">
 
         <ul>

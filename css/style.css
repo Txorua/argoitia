@@ -344,10 +344,10 @@ div.slider-container>div.slider>div.tp-bannertimer {
   padding-left:20px;
   padding-right:20px;*/
 }
-div.slider-container{background:#666; width:100%;  height:350px; min-height:350px; overflow:hidden;padding:0;position:relative;}
-div.slider-container ul{list-style:none;margin:0;padding:0;width:100%;height:350px; min-height:350;}
+div.slider-container{background:#666; width:100%;  heiight:350px; min-heiight:350px; overflow:hidden;padding:0;position:relative;}
+div.slider-container ul{list-style:none;margin:0;padding:0;width:100%;heiight:350px; min-heiight:350;}
 div.slider{position:relative;}
-div.slider div.tp-bannertimer{background-color:#CCC;background-position:0 -13px;top:0;height:7px;}
+div.slider div.tp-bannertimer{background-color:rgb(211,184,102);color:rgb(211,184,102);background-position:0 -13px;bottom:0;height:4px;}
 div.slider-container{background:#171717;}
 div.slider-container div.caption{filter:alpha(opacity=0);opacity:0;}
 div.slider-container div.top-label{
