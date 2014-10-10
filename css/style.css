@@ -167,7 +167,6 @@ footer div.footer-ribon span {
 	background-color: white;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -367,6 +366,10 @@ div.slider-container div.bottom-label{
 	font-weight: 300;
 }
 div.slider-container div.caption a,div.slider-container div.caption a:hover{color:#FFF;}
+
+.fullwidthbanner-container {
+  margin-top: -58px;
+}
 
 /**
  * Hoteles
@@ -606,9 +609,9 @@ li[class^="translation_"] {
 
   /*.navbar-wrapperX .navbar-headerX, 
   .navbar-wrapper .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 4px;
-    border: solid 1px #666;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  border: solid 1px #666;
   }*/
 
 
@@ -637,6 +640,9 @@ li[class^="translation_"] {
     min-height: 12em;
   }
 
+  .fullwidthbanner-container {
+    margin-top: 0px;
+  }
 }
 
 
