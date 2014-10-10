@@ -173,9 +173,9 @@
   <?php endif; ?>
 </header><!-- End of The Header -->
 
-  <p class="h1 text-center" style="color: gray"><?php print t('Getaria es <strong>Historia</strong>'); ?></p>
+<p class="h1 text-center" style="color: gray"><?php print t('Getaria es <strong>Historia</strong>'); ?></p>
 <hr>
-<section  class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-2.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
+<section  class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-2.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
 </section>
 <div class="container">
   <div class="row">
@@ -194,10 +194,9 @@
 </div>
 <hr>
 
-
 <p class="h1 text-center" style="color: gray"><?php print t('Getaria es <strong>Gastronomía</strong>'); ?></p>
 <hr>
-<section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-1.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
+<section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-1.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
 </section>
 <div class="container">
   <div class="row">
@@ -216,13 +215,9 @@
 </div>
 <hr>
 
-
-
-
 <p class="h1 text-center" style="color: gray"><?php print t('Getaria es <strong>Naturaleza</strong>'); ?></p>
 <hr>
-
-<section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-3.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
+<section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-3.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
 </section>
 <div class="container">
   <div class="row">
