@@ -76,140 +76,96 @@
 <!-- The Header -->
 <header class="container-fluid">
 
-<div class="row">
-  <div class="navbar-wrapper">
+<div class="navbar-wrapper">
+  <div class="row white">
 
-
-    <div class="row white">
-
-      <div id="logo" class="col-xs-4 col-sm-4 col-md-3">
-          <a class="" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"  />
-          </a>
-      </div>
-
-      <div class="col-xs-8 col-sm-8 col-md-7">
-        <div class="row">
-
-          <div class="col-xs-12 col-md-12">
-            <nav id="header-links">
-              <ul class="nav nav-pills nav-top pull-right h5">
-                <li><a href="<?php global $language, $base_url; print $base_url . '/' . $language->language; ?>/contact"><span class="glyphicon glyphicon-envelope">&nbsp;</span><?php print t('Contact'); ?></a></li>
-                <li class="phone"><a href="#"><span class="glyphicon glyphicon-earphone">&nbsp;</span>+34 943 14 09 57</a></li>
-
-<?php
-  $translations = translation_node_get_translations(142);
-  $path      = drupal_get_path_alias('node/' . $translations[$language->language]->nid, $language->language);
-  $name      = '<span class="glyphicon glyphicon-map-marker">&nbsp;</span>' . t('How to reach');
-  $options   = array('attributes' => array('language' => $language->language),
-                     'html' => true);
-  $link      = l($name, $path, $options);
-?>
-  <li><?php print $link; ?></li>
-
-              <?php if (!empty($language_links)): ?>
-              <?php print $language_links; ?>
-              <?php endif ?>
-              <!--<li><a href="#" style="padding-right: 7px;"><i class="glyphicon glyphicon-flag"></i></a></li>
-              <li><a href="#" style="padding-left: 0px; padding-right: 3px;">eu |</a></li>
-              <li><a href="#" style="padding-left: 0px; padding-right: 3px;">es |</a></li>
-              <li><a href="#" style="padding-left: 0px; padding-right: 3px;">en |</a></li>
-              <li><a href="#" style="padding-left: 0px; padding-right: 7px;">fr</a></li>-->
-            </ul>
-            </nav>
-          </div>
-          <!--<div id="languages" class="col-md-12 pull-right">
-            <ul class="list-unstyled list-inline pull-right">
-              <li>eu |</li>
-              <li>es |</li>
-              <li>en |</li>
-              <li>fr</li>
-            </ul>
-          </div>-->
-
-        </div>
-      </div>
-
-      <div class="hidden-xs col-sm-4 col-md-2">
-        <!--<div class="row">
-          <div class="col-xs-3 col-sm-3 col-md-5 col-xs-offset-6 col-sm-offset-6 col-md-offset-2">
-            <a class="#" href="#" title="Getariako Udala">
-            <img src="/sites/default/files/getariako-udala-logo-circle.png" alt="Getariako Udala" class="img-responsive" style="padding: 5px" />
-            </a>
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-5">
-            <a class="" href="#" title="Juan Sebastián Elkano">
-            <img src="/sites/default/files/getariako-elkano-logo-circle.png" alt="Juan Sebastián Elkano" class="img-responsive" style="padding: 5px" />
-            </a>
-          </div>
-        </div>-->
-        <a class="#" href="#" title="Getariako Udala - Juan Sebastián Elkano">
-        <img src="<?php print base_path(); ?>sites/default/files/getariako-udala-elkano-logos-circles.png" alt="Getariako Udala - Juan Sebastián Elkano" class="img-responsive pull-right" style="padding: 5px" />
+    <div id="logo" class="col-sm-2 col-md-3 hidden-xs">
+        <a class="" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"  />
         </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-7">
+      <div class="hidden-xs col-sm-12 clearfix">
+        <nav class="header-links">
+          <ul class="nav nav-pills nav-top pull-right h5">
+            <li><a href="<?php global $language, $base_url; print $base_url . '/' . $language->language; ?>/contact"><span class="glyphicon glyphicon-envelope">&nbsp;</span><?php print t('Contact'); ?></a></li>
+            <li class="phone"><a href="#"><span class="glyphicon glyphicon-earphone">&nbsp;</span>+34 943 14 09 57</a></li>
+            <?php
+              $translations = translation_node_get_translations(142);
+              $path      = drupal_get_path_alias('node/' . $translations[$language->language]->nid, $language->language);
+              $name      = '<span class="glyphicon glyphicon-map-marker">&nbsp;</span>' . t('How to reach');
+              $options   = array('attributes' => array('language' => $language->language), 'html' => true);
+              $link      = l($name, $path, $options);
+            ?>
+            <li><?php print $link; ?></li>
+          </ul>
+        </nav>
       </div>
-
-    </div><!-- fin row -->
-
-    <!--<div class="container">-->
-    <div class="row">
-      <div id="navbar" role="navigation" class="<?php print $navbar_classes; ?>">
-        <div class="navbar-header">
-          <?php if ($logo): ?>
-          <!--<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="img-responsive" />
-          </a>-->
-          <?php endif; ?>
-          <?php if (!empty($site_name)): ?>
-          <a class="name navbar-brand hidden-sm hidden-md hidden-lg" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-          <?php endif; ?>
-          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <div class="navbar-collapse collapse pull-right" style="padding-right: 60px">
-          <?php if (!empty($primary_nav)): ?>
-          <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-          <?php print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($language_links)): ?>
-          <?php //print $language_links; ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
-          <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-        </div>
-        <?php endif; ?>
+      <div class="col-xs-12">
+        <nav class="header-links">
+          <ul class="nav nav-pills nav-top pull-right h5">
+            <?php if (!empty($language_links)): ?>
+            <?php print $language_links; ?>
+            <?php endif ?>
+          </ul>
+        </nav>
       </div>
     </div>
-  </div><!-- End Nav -->
-</div>
+
+    <div class="hidden-xs col-sm-2 col-md-2">
+      <a class="#" href="#" title="Getariako Udala - Juan Sebastián Elkano">
+        <img src="<?php print base_path(); ?>sites/default/files/getariako-udala-elkano-logos-circles.png" alt="Getariako Udala - Juan Sebastián Elkano" class="img-responsive pull-right" style="padding: 5px" />
+      </a>
+    </div>
+
+  </div><!-- fin row -->
+
+  <div class="row">
+    <div id="navbar" role="navigation" class="<?php print $navbar_classes; ?>">
+      <div class="navbar-header">
+        <?php if ($logo): ?>
+        <!--<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="img-responsive" />
+        </a>-->
+        <?php endif; ?>
+        <?php if (!empty($site_name)): ?>
+        <a class="name navbar-brand hidden-sm hidden-md hidden-lg" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+        <?php endif; ?>
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+      <div class="navbar-collapse collapse pull-right" style="padding-right: 60px">
+        <?php if (!empty($primary_nav)): ?>
+        <?php print render($primary_nav); ?>
+        <?php endif; ?>
+        <?php if (!empty($secondary_nav)): ?>
+        <?php print render($secondary_nav); ?>
+        <?php endif; ?>
+        <?php if (!empty($language_links)): ?>
+        <?php //print $language_links; ?>
+        <?php endif; ?>
+        <?php if (!empty($page['navigation'])): ?>
+        <?php print render($page['navigation']); ?>
+        <?php endif; ?>
+      </div>
+      <?php endif; ?>
+    </div>
+  </div>
+</div><!-- End Nav -->
 
   <?php if (!empty($site_slogan)): ?>
   <div class="row">
-  <div class="home-intro">
-    <?php if (!empty($variables['node']->field_imagen_banner)): ?>
-    <?php $img_url = file_create_url($variables['node']->field_imagen_banner['und'][0]['uri']); ?>
-    <img src="<?php print $img_url; ?>" alt="..." style="margin-top: -20px; width: 100%;">
-    <?php endif; ?>
-    <p class="lead text-center"><?php print $site_slogan; ?></p>
-  </div>
-  </div>
-  <!--<div class="container visible-xs" style="padding-top: 3.74em;">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="home-intro">
-          <p class="lead text-center"><?php print $site_slogan; ?></p>
-        </div>
-      </div>
+    <div class="home-intro center-block">
+      <p class="lead text-center"><?php print $site_slogan; ?></p>
     </div>
-  </div>-->
+  </div>
   <?php endif; ?>
 </header><!-- End of The Header -->
 

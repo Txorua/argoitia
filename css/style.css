@@ -392,11 +392,11 @@ div.slider-container div.caption a,div.slider-container div.caption a:hover{colo
 /**
  * Headers links
  */
- #header-links ul {
+ .header-links ul {
  	margin-top: 5px;
  	/*background-color: #eee;*/
  }
- #header-links a{
+ .header-links a{
  	color: #999;
  }
  
