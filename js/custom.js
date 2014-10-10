@@ -3,7 +3,7 @@ function parallax() {
 
 		$(window).load(function () {
 
-			if($(".parallax").get(0)) {
+			if($(".paarallax").get(0)) { // Parallax desactivado
 				if (!$('html').hasClass('touch')) {
 					$(window).stellar({
 						responsive:true,
