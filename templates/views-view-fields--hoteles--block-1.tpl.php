@@ -139,7 +139,7 @@
                     $active = '';
                   }
                   print '<div class="item ' . $active . '">';
-                  print '<img src="' . image_style_url('square_300x300',$img_uri) . '" alt="Foto Hotel" class="img-responsive" typeof="foaf:Image" />';
+                  print '<img src="' . image_style_url('miniatura_447x300',$img_uri) . '" alt="Foto Hotel" class="img-responsive" typeof="foaf:Image" />';
                   print '</div>';
                 }
               ?>
@@ -187,7 +187,7 @@
                     $active = '';
                   }
                   print '<div class="item ' . $active . '">';
-                  print '<img src="' . image_style_url('square_300x300',$img_uri) . '" alt="Foto Hotel" class="img-responsive" typeof="foaf:Image" />';
+                  print '<img src="' . image_style_url('miniatura_447x300',$img_uri) . '" alt="Foto Hotel" class="img-responsive" typeof="foaf:Image" />';
                   print '</div>';
                 }
               ?>
