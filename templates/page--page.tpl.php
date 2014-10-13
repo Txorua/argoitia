@@ -163,6 +163,10 @@
   <?php if (!empty($site_slogan)): ?>
   <div class="row">
     <div class="home-intro center-block">
+      <?php if (!empty($variables['node']->field_imagen_banner)): ?>
+      <?php $img_url = file_create_url($variables['node']->field_imagen_banner['und'][0]['uri']); ?>
+      <img src="<?php print $img_url; ?>" alt="..." style="margin-top: -20px; width: 100%;">
+      <?php endif; ?>
       <p class="lead text-center"><?php print $site_slogan; ?></p>
     </div>
   </div>

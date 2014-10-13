@@ -164,6 +164,7 @@
   <?php if (!empty($site_slogan)): ?>
   <div class="row">
     <div class="home-intro center-block">
+      <img src="<?php print base_path() . path_to_theme(); ?>/images/banner-generico-getaria.jpg" alt="..." style="margin-top: -20px; width: 100%;" />
       <p class="lead text-center"><?php print $site_slogan; ?></p>
     </div>
   </div>
