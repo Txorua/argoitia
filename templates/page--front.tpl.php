@@ -173,7 +173,7 @@
   <?php endif; ?>
 </header><!-- End of The Header -->
 
-<p class="h1 text-center" style="color: gray"><?php print t('Getaria es <strong>Historia</strong>'); ?></p>
+<p class="h1 text-center" style="color: gray"><?php print t('Getaria is <strong>History</strong>'); ?></p>
 <hr>
 <section  class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-2.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
 </section>
@@ -181,20 +181,20 @@
   <div class="row">
     <div class="col-md-12" style="padding: 0% 0px; margin: 0% 0px; height: auto;">
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(7, $language->language); ?>"><p class="lead text-center"><?php print t('Nuestro<br/><b>Patrimonio</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(7, $language->language); ?>"><p class="lead text-center"><?php print t('Our<br/><b>Heritage</b>'); ?></p></a>
       </div>
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(6, $language->language); ?>"><p class="lead text-center"><?php print t('Siglos de<br/><b>historia Vasca.</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(6, $language->language); ?>"><p class="lead text-center"><?php print t('Centuries of<br/><b>Basque History.</b>'); ?></p></a>
       </div>
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(115, $language->language); ?>"><p class="lead text-center"><?php print t('Personajes<br/><b>Ilustres</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(115, $language->language); ?>"><p class="lead text-center"><?php print t('<b>Celebrities</b>'); ?></p></a>
       </div>
     </div>
   </div>
 </div>
 <hr>
 
-<p class="h1 text-center" style="color: gray"><?php print t('Getaria es <strong>Gastronomía</strong>'); ?></p>
+<p class="h1 text-center" style="color: gray"><?php print t('Getaria is <strong>Gastronomy</strong>'); ?></p>
 <hr>
 <section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-1.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
 </section>
@@ -202,20 +202,20 @@
   <div class="row">
     <div class="col-md-12" style="padding: 0% 0px; margin: 0% 0px; height: auto;">
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(19, $language->language); ?>"><p class="lead text-center"><?php print t('Para <b>saborear</b> y <b>degustar</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(19, $language->language); ?>"><p class="lead text-center"><?php print t('To <b>Savor</b> and <b>Enjoy</b>'); ?></p></a>
       </div>
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(17, $language->language); ?>"><p class="lead text-center"><?php print t('Desde el <b>mar</b> a la <b>parrilla</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(17, $language->language); ?>"><p class="lead text-center"><?php print t('From the <b>sea</b> to the <b>grid</b>'); ?></p></a>
       </div>
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(50, $language->language); ?>"><p class="lead text-center"><?php print t('Para llevar a tu <b>casa</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(50, $language->language); ?>"><p class="lead text-center"><?php print t('To Take <b>Away</b>'); ?></p></a>
       </div>
     </div>
   </div>
 </div>
 <hr>
 
-<p class="h1 text-center" style="color: gray"><?php print t('Getaria es <strong>Naturaleza</strong>'); ?></p>
+<p class="h1 text-center" style="color: gray"><?php print t('Getaria is <strong>Nature</strong>'); ?></p>
 <hr>
 <section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-3.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
 </section>
@@ -223,13 +223,13 @@
   <div class="row">
     <div class="col-md-12">
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(126, $language->language); ?>"><p class="lead text-center"><?php print t('Entorno <b>marino</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(126, $language->language); ?>"><p class="lead text-center"><?php print t('<b>Marine</b> Environment'); ?></p></a>
       </div>
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(125, $language->language); ?>"><p class="lead text-center"><?php print t('Entorno <b>rural</b>'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(125, $language->language); ?>"><p class="lead text-center"><?php print t('<b>Rural</b> Environment'); ?></p></a>
       </div>
       <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(50, $language->language); ?>"><p class="lead text-center"><?php print t('<b>Productos</b> del entorno'); ?></p></a>
+        <a class="unstyled" href="<?php print _argoitia_node_translations(50, $language->language); ?>"><p class="lead text-center"><?php print t('Enviromental <b>Products</b>'); ?></p></a>
       </div>
     </div>
   </div>
