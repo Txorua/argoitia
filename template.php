@@ -299,6 +299,7 @@ function _argoitia_language_list() {
   return $output;
 }
 function _argoitia_language_list_2() {
+  $abbrs = array("eu" => "Eus", "es" => "Cas", "en" => "Eng", "fr" => "Fr");
   $path = drupal_is_front_page() ? '<front>' : $_GET['q'];
   $links = language_negotiation_get_switch_links('language', $path);
   global $language;
@@ -308,7 +309,8 @@ function _argoitia_language_list_2() {
   foreach($links->links as $lang => $info) {
     //$name     = $info['language']->native;
     //$name     = $info['title'];
-    $name     = $lang;
+    //$name     = $lang;
+    $name     = (isset($abbrs[$lang])) ? $abbrs[$lang] : $lang;
     $href     = isset($info['href']) ? $info['href'] : '';
     $li_classes   = array('');
     $output .= '<li ';
