@@ -116,10 +116,10 @@
 
     <div class="hidden-xs col-sm-2 col-md-2">
       <a class="col-sm-6" href="http://www.getaria.net" title="Getariako Udala" style="padding: 1em 0;">
-        <img src="<?php print base_path(); ?>sites/default/files/udala.jpg" alt="Getariako Udala" class="img-responsive pull-right" />
+        <img src="<?php print base_path(); ?>sites/default/files/logo-udala.png" alt="Getariako Udala" class="img-responsive pull-right" />
       </a>
       <a class="col-sm-6" href="http://elkano.txorua.com" title="Juan Sebastián Elkano" style="padding: 1em 0;">
-        <img src="<?php print base_path(); ?>sites/default/files/elkano500.jpg" alt="Juan Sebastián Elkano" class="img-responsive pull-right" />
+        <img src="<?php print base_path(); ?>sites/default/files/logo-elkano.png" alt="Juan Sebastián Elkano" class="img-responsive pull-right" />
       </a>
     </div>
 
