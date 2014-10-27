@@ -34,7 +34,8 @@ header.container-fluid {
   padding-top: 151px;
 }
 header.container-fluid .row.white {
-  background: url(../images/header-bg.jpg) center center no-repeat;
+  background: url(../images/header-bg.jpg) no-repeat;
+  background-size: cover;
 }
 
 #navbar {
@@ -399,8 +400,11 @@ div.slider-container div.caption a,div.slider-container div.caption a:hover{colo
  * Headers links
  */
  .header-links ul {
- 	margin-top: 5px;
- 	/*background-color: #eee;*/
+  	margin-top: 5px;
+ }
+ .header-links ul.nav {
+  	margin-top: 15px;
+  	margin-bottom: 15px;
  }
  .header-links, .header-links a {
  	color: white;
