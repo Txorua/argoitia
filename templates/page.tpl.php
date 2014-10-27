@@ -265,7 +265,7 @@
           <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Udala</p>
           <ul class='contact list-unstyled'>
             <li><span class="glyphicon glyphicon-home">&nbsp;</span>Gudarien Enparantza, 1  20808 GETARIA, Gipuzkoa</li>
-            <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i>Teléfono :  (+34) 943 89 60 24 </li>
+            <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 89 60 24 </li>
             <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">gro.airateg@aladu</a></li>
           </ul>
         </div>
@@ -273,10 +273,10 @@
 	  
 	     <div class='col-md-5'>
         <div class='contact-details'>
-          <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Oficina de turismo de Getaria</p>
+          <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Turimo Bulegoa</p>
           <ul class='contact list-unstyled'>
             <li><span class="glyphicon glyphicon-home">&nbsp;</span>Aldamar parkea 2 20808 GETARIA, Gipuzkoa</li>
-            <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i>Teléfono :  (+34) 943 14 09 57 </li>
+            <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 14 09 57 </li>
             <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">ten.tenlaksue@airategomsirut</a></li>
           </ul>
         </div>
@@ -292,7 +292,7 @@
       <div class='col-md-3'>
         <div class='social-icons'>
           <ul class='list-inline'>
-        <span class="h4">Siguenos..</span>
+          <span class="h4"><?php print t('Follow us'); ?>&hellip;</span>
             <li class='facebook'><a href='#' target='_blank' data-placement='bottom' rel='tooltip' title='Facebook'>Facebook</a></li>
             <li class='twitter'><a href='#' target='_blank' data-placement='bottom' rel='tooltip' title='Twitter'>Twitter</a></li>
           </ul>
@@ -302,10 +302,10 @@
       <div class='col-md-4 pull-right'>
           <nav id='sub-menu'>
             <ul class="list-inline">
-              <li><a href="#">Mapa</a> </li>
-              <li><a href="#">Aviso legal</a></li>
-              <li><a href="#">Privacidad</a></li>
-              <li><a href="#">Contato</a></li>
+            <li><a href="#"><?php print t('Map'); ?></a> </li>
+            <li><a href="#"><?php print t('Legal'); ?></a></li>
+            <li><a href="#"><?php print t('Privacy'); ?></a></li>
+            <li><a href="/<?php print $language->language; ?>/contact"><?php print t('Contact'); ?></a></li>
             </ul>
           </nav>
         </div>
