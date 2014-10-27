@@ -82,7 +82,7 @@
 
     <div id="logo" class="col-sm-2 col-md-3 hidden-xs">
         <a class="" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"  />
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="img-responsive" />
         </a>
     </div>
 
