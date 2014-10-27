@@ -373,7 +373,7 @@
 	  
 	     <div class='col-md-5'>
         <div class='contact-details'>
-          <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Turimo Bulegoa</p>
+          <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Turismo Bulegoa</p>
           <ul class='contact list-unstyled'>
             <li><span class="glyphicon glyphicon-home">&nbsp;</span>Aldamar parkea 2 20808 GETARIA, Gipuzkoa</li>
             <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 14 09 57 </li>
