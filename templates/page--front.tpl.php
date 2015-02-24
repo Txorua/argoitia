@@ -163,175 +163,16 @@
   </div>
 </div><!-- End Nav -->
 
+</header><!-- End of The Header -->
+
+<main>
+<div class="container-fluid">
 <div class="row">
 <?php print theme_render_template(path_to_theme() . '/templates/partials/slider-revolution.tpl.php', $variables = array()); ?>
 </div>
-
-  <?php if (!empty($site_slogan)): ?>
-  <div class="row">
-    <div class="home-intro center-block">
-      <p class="lead text-center"><?php print $site_slogan; ?></p>
-    </div>
-  </div>
-  <?php endif; ?>
-</header><!-- End of The Header -->
-
-<p class="h1 text-center" style="color: gray"><?php print t('Getaria is <strong>History</strong>'); ?></p>
-<hr>
-<section  class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-2.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
-</section>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12" style="padding: 0% 0px; margin: 0% 0px; height: auto;">
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(7, $language->language); ?>"><p class="lead text-center"><?php print t('Our<br/><b>Heritage</b>'); ?></p></a>
-      </div>
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(6, $language->language); ?>"><p class="lead text-center"><?php print t('Centuries of<br/><b>Basque History.</b>'); ?></p></a>
-      </div>
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(115, $language->language); ?>"><p class="lead text-center"><?php print t('<b>Celebrities</b>'); ?></p></a>
-      </div>
-    </div>
-  </div>
-</div>
-<hr>
-
-<p class="h1 text-center" style="color: gray"><?php print t('Getaria is <strong>Gastronomy</strong>'); ?></p>
-<hr>
-<section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-1.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
-</section>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12" style="padding: 0% 0px; margin: 0% 0px; height: auto;">
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(19, $language->language); ?>"><p class="lead text-center"><?php print t('To <b>Savor</b> and <b>Enjoy</b>'); ?></p></a>
-      </div>
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(17, $language->language); ?>"><p class="lead text-center"><?php print t('From the <b>sea</b> to the <b>grid</b>'); ?></p></a>
-      </div>
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(50, $language->language); ?>"><p class="lead text-center"><?php print t('To Take <b>Away</b>'); ?></p></a>
-      </div>
-    </div>
-  </div>
-</div>
-<hr>
-
-<p class="h1 text-center" style="color: gray"><?php print t('Getaria is <strong>Nature</strong>'); ?></p>
-<hr>
-<section class="parallax" class="img-responsive" style="background-image: url(<?php print base_path() . path_to_theme(); ?>/images/parallax/paralax-image-3.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; height: 400px; display: table; width: 100%;" data-stellar-background-ratio="0.5">
-</section>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(126, $language->language); ?>"><p class="lead text-center"><?php print t('<b>Marine</b> Environment'); ?></p></a>
-      </div>
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(125, $language->language); ?>"><p class="lead text-center"><?php print t('<b>Rural</b> Environment'); ?></p></a>
-      </div>
-      <div class="col-md-4 caja-titulos-front">
-        <a class="unstyled" href="<?php print _argoitia_node_translations(50, $language->language); ?>"><p class="lead text-center"><?php print t('Enviromental <b>Products</b>'); ?></p></a>
-      </div>
-    </div>
-  </div>
-</div>
-<hr>
-
 </div>
 </div>
-
-</div>
-</div>
-
-<!-- Main Content -->
-<div class="main-container container">
-
-  <header role="banner" id="page-header">
-    <?php print render($page['header']); ?>
-  </header> <!-- /#page-header -->
-
-<!--
-  <div class="row">
-<div class="col-md-4">
-    <div class="panel panel-default">
-      <div class="panel-heading"><span class="glyphicon glyphicon-tower">&nbsp;</span>Historia</div>
-      <div class="panel-body">
-        <img class="img-responsive img-thumbnail" src="<?php print base_path() . path_to_theme(); ?>/images/getaria-iglesia.jpg" alt="">
-      </div>
-    </div>
-</div>
-<div class="col-md-4">
-    <div class="panel panel-default">
-      <div class="panel-heading"><span class="glyphicon glyphicon-cutlery">&nbsp;</span>Gastronomía</div>
-      <div class="panel-body">
-        <img class="img-responsive img-thumbnail" src="<?php print base_path() . path_to_theme(); ?>/images/parrilla-getaria.jpg" alt="">
-      </div>
-    </div>
-</div>
-<div class="col-md-4">
-    <div class="panel panel-default">
-      <div class="panel-heading"><span class="glyphicon glyphicon-tree-conifer">&nbsp;</span>Entorno</div>
-      <div class="panel-body">
-        <img class="img-responsive img-thumbnail" src="<?php print base_path() . path_to_theme(); ?>/images/getaria2.jpg" alt="">
-      </div>
-    </div>
-</div>
-
-  </div>
--->
-
-
-  <div class="row">
-
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
-    <?php endif; ?>
-
-    <section<?php print $content_column_class; ?>>
-      <?php if (!empty($page['highlighted'])): ?>
-        <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
-      <?php endif; ?>
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php //print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php if (!empty($tabs)): ?>
-        <?php print render($tabs); ?>
-      <?php endif; ?>
-      <?php if (!empty($page['help'])): ?>
-        <?php print render($page['help']); ?>
-      <?php endif; ?>
-      <?php if (!empty($action_links)): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php //print render($page['content']); ?>
-    </section>
-
-    <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
-
-  </div>
-
-  <?php if (!empty($page['after_content'])): ?>
-  <div class="row">
-    <aside role="complementary">
-      <?php print render($page['after_content']); ?>
-    </aside>
-  </div>
-  <?php endif; ?>
-
-</div><!-- End Main Content -->
+</main>
 
 <footer>
   <div class="container">
@@ -340,11 +181,9 @@
         <span>GETARIA3D <a href="http://www.getaria3d.com"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/earth-icon-x18.png" align="absmiddle"></a></span>
       </div>
     </div>
-
     <div class='row'>
       <?php print render($page['footer']); ?>
     </div>
-
     <div class='footer-copyright'>
       <div class='row'>
         <div class='col-md-12'>
@@ -354,64 +193,54 @@
               <area shape="rect" coords="242,7,341,59" href="#" target="http://www.juansebastianelkano.com">
             </map>
             <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-sponsors.png" alt="">
-           
           </p>
         </div>
       </div>
-<hr>
-    <div class="row">
-      <div class='col-md-5 col-md-offset-1'>
-        <div class='contact-details'>
-          <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Udala</p>
-          <ul class='contact list-unstyled'>
-            <li><span class="glyphicon glyphicon-home">&nbsp;</span>Gudarien Enparantza, 1  20808 GETARIA, Gipuzkoa</li>
-            <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 89 60 24 </li>
-            <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">gro.airateg@aladu</a></li>
-          </ul>
+      <hr>
+      <div class="row">
+        <div class='col-md-5 col-md-offset-1'>
+          <div class='contact-details'>
+            <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Udala</p>
+            <ul class='contact list-unstyled'>
+              <li><span class="glyphicon glyphicon-home">&nbsp;</span>Gudarien Enparantza, 1  20808 GETARIA, Gipuzkoa</li>
+              <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 89 60 24 </li>
+              <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">gro.airateg@aladu</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-	  
-	     <div class='col-md-5'>
-        <div class='contact-details'>
-          <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Turismo Bulegoa</p>
-          <ul class='contact list-unstyled'>
-            <li><span class="glyphicon glyphicon-home">&nbsp;</span>Aldamar parkea 2 20808 GETARIA, Gipuzkoa</li>
-            <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 14 09 57 </li>
-            <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">ten.tenlaksue@airategomsirut</a></li>
-          </ul>
+	      <div class='col-md-5'>
+          <div class='contact-details'>
+            <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Turismo Bulegoa</p>
+            <ul class='contact list-unstyled'>
+              <li><span class="glyphicon glyphicon-home">&nbsp;</span>Aldamar parkea 2 20808 GETARIA, Gipuzkoa</li>
+              <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 14 09 57 </li>
+              <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">ten.tenlaksue@airategomsirut</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-	 </div> 
-	  
-	  
-
-<hr>
-
-
-    <div class="row">
-      <div class='col-md-3'>
-        <div class='social-icons'>
-          <ul class='list-inline'>
-          <span class="h4"><?php print t('Follow us'); ?>&hellip;</span>
-            <li class='facebook'><a href='#' target='_blank' data-placement='bottom' rel='tooltip' title='Facebook'>Facebook</a></li>
-            <li class='twitter'><a href='#' target='_blank' data-placement='bottom' rel='tooltip' title='Twitter'>Twitter</a></li>
-          </ul>
+	     </div> 
+       <hr>
+       <div class="row">
+         <div class='col-md-3'>
+          <div class='social-icons'>
+            <ul class='list-inline'>
+              <span class="h4"><?php print t('Follow us'); ?>&hellip;</span>
+              <li class='facebook'><a href='#' target='_blank' data-placement='bottom' rel='tooltip' title='Facebook'>Facebook</a></li>
+              <li class='twitter'><a href='#' target='_blank' data-placement='bottom' rel='tooltip' title='Twitter'>Twitter</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-
-      <div class='col-md-4 pull-right'>
+        <div class='col-md-4 pull-right'>
           <nav id='sub-menu'>
             <ul class="list-inline">
-            <li><a href="#"><?php print t('Map'); ?></a> </li>
-            <li><a href="#"><?php print t('Legal'); ?></a></li>
-            <li><a href="#"><?php print t('Privacy'); ?></a></li>
-            <li><a href="/<?php print $language->language; ?>/contact"><?php print t('Contact'); ?></a></li>
+              <li><a href="#"><?php print t('Map'); ?></a> </li>
+              <li><a href="#"><?php print t('Legal'); ?></a></li>
+              <li><a href="#"><?php print t('Privacy'); ?></a></li>
+              <li><a href="/<?php print $language->language; ?>/contact"><?php print t('Contact'); ?></a></li>
             </ul>
           </nav>
         </div>
       </div>
-
     </div>
-
   </div>
 </footer>
