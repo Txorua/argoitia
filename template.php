@@ -63,8 +63,8 @@ function argoitia_preprocess_page(&$variables) {
       'group' => JS_THEME,
       'scope' => 'footer',
     );
-    drupal_add_js(path_to_theme() . '/js/rs/jquery.themepunch.plugins.js', $options);
-    drupal_add_js(path_to_theme() . '/js/rs/jquery.themepunch.revolution.js', $options);
+    drupal_add_js(path_to_theme() . '/js/slider-revolution/js/jquery.themepunch.plugins.min.js', $options);
+    drupal_add_js(path_to_theme() . '/js/slider-revolution/js/jquery.themepunch.revolution.min.js', $options);
   }
 
   // Page Suggestions

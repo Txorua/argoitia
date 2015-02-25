@@ -26,7 +26,7 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = js/magnific-popup/magnific-popup.css
-stylesheets[all][] = js/rs/settings.css
+stylesheets[all][] = js/slider-revolution/css/settings.css
 stylesheets[all][] = css/style.css
 
 

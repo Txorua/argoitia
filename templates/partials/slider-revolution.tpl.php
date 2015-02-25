@@ -6,35 +6,35 @@
 		  <li data-transition="fade"
           data-slotamount="10"
           data-masterspeed="300">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-0.jpg" data-fullwidthcentering="on" alt="">
+          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-01.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
       </li>
 
       <li data-transition="fade"
           data-slotamount="10"
           data-masterspeed="300">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-1.jpg" data-fullwidthcentering="on" alt="">
+          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-02.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="top center">
       </li>
                               
 	    <li data-transition="fade"
           data-slotamount="10"
           data-masterspeed="300">
-		      <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-2.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+		      <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-03.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
       </li>
 
       <li data-transition="fade"
           data-slotamount="10"
           data-masterspeed="300">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-3.jpg" width="100%"; data-fullwidthcentering="on" alt="" class="defaultimg">
+          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-04.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
       </li>
 
 	    <li data-transition="fade"
 	        data-slotamount="10"
           data-masterspeed="300">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-4.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-05.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
       </li>
 
       <li data-transition='fade' data-slotamount='10' data-masterspeed='300'>
-        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-5.jpg" data-fullwidthcentering='on' alt=''>
+        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-06.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
         <div class='caption fade'
              data-x='200'
              data-y='135'
@@ -47,13 +47,13 @@
 	    <li data-transition="fade"
           data-slotamount="10"
           data-masterspeed="300">
-		      <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-6.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+		      <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-07.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
       </li>
 		  
 	    <li data-transition="fade"
           data-slotamount="10"
 	        data-masterspeed="300">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-7.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+          <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-08.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
 	        <div class="caption fade tp-caption start"
                data-x="100"
                data-y="165"
@@ -66,7 +66,7 @@
 		  <li data-transition="fade"
           data-slotamount="10"
 	        data-masterspeed="300">
-		      <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-8.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+		      <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-09.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="top center">
 	        <div class="caption fade tp-caption start"
                data-x="100"
                data-y="165"
@@ -79,7 +79,7 @@
   	  <li data-transition="fade"
           data-slotamount="10"
 	        data-masterspeed="300">
-	        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-9.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+	        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-10.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
 	        <div class="caption fade tp-caption start"
                data-x="100"
                data-y="165"
@@ -92,7 +92,7 @@
 	    <li data-transition="fade"
           data-slotamount="10"
 	        data-masterspeed="300">
-	        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/getariaturismo-slide-bg-10.jpg" data-fullwidthcentering="on" alt="" class="defaultimg">
+	        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-11.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
 	        <div class="caption fade tp-caption start"
                data-x="100"
                data-y="165"
@@ -104,6 +104,7 @@
 
     </ul>
 
+  <div class="tp-bannertimer tp-bottom"></div>
   </div>
 </div><!-- fin slider -->
 
