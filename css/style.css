@@ -698,6 +698,9 @@ li[class^="translation_"] {
   }
 }
 
+.main-container {
+  padding-bottom: 3em;
+}
 
 
 @media (min-width: 992px) {
