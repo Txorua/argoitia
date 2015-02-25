@@ -7,6 +7,7 @@
           data-slotamount="10"
           data-masterspeed="300">
           <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-01.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
+<div class="tp-caption lft very_large_text large_bg_black boxshadow" data-x="center" data-y="center" data-speed="300" data-start="2000">GETARIA ES<br/>GASTRONOMÍA</div>
       </li>
 
       <li data-transition="fade"

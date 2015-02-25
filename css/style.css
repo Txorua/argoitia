@@ -408,6 +408,13 @@ div.slider-container div.caption a:hover {
   margin-top: -58px;
 }
 
+div.slider-container .tp-caption {
+  text-align: center;
+}
+div.slider-container .tp-caption.large_bg_black {
+  background-color: rgba(0,0,0,0.7);
+}
+
 /**
  * Hoteles
  */
