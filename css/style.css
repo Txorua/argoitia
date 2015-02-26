@@ -411,8 +411,24 @@ div.slider-container div.caption a:hover {
 div.slider-container .tp-caption {
   text-align: center;
 }
-div.slider-container .tp-caption.large_bg_black {
-  background-color: rgba(0,0,0,0.7);
+div.slider-container .tp-caption.custom_large_white_bg_dark {
+font-size:32px;
+line-height:64px;
+font-weight:400;
+font-family:"Open Sans";
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:rgb(0, 0, 0);
+background-color:rgba(0, 0, 0, 0.498039);
+padding:50px 25px;
+text-align:center;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+div.slider-container .tp-caption.custom_large_white_bg_dark strong {
+font-weight:800;
+font-size:36px;
 }
 
 /**
@@ -616,6 +632,11 @@ li[class^="translation_"] {
   display: none;
 }
 
+.main-container {
+  padding-bottom: 3em;
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -696,12 +717,14 @@ li[class^="translation_"] {
   .fullwidthbanner-container {
     margin-top: 0px;
   }
-}
 
-.main-container {
-  padding-bottom: 3em;
+  div.slider-container .tp-caption.custom_large_white_bg_dark {
+    font-size: 42px;
+  }
+  div.slider-container .tp-caption.custom_large_white_bg_dark strong {
+    font-size: 64px;
+  }
 }
-
 
 @media (min-width: 992px) {
   .featurette-heading {
