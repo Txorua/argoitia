@@ -7,21 +7,21 @@
           data-slotamount="10"
           data-masterspeed="300">
           <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-01.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
-          <div class="tp-caption lft custom_large_white_bg_dark boxshadow" data-x="center" data-y="center" data-speed="300" data-start="500">Getaria es <strong>Naturaleza</strong></div>
+          <div class="tp-caption lft custom_large_white_bg_dark boxshadow" data-x="center" data-y="center" data-speed="300" data-start="500"><?php print t('Getaria is <strong>Nature</strong>'); ?></div>
       </li>
 
       <li data-transition="fade"
           data-slotamount="10"
           data-masterspeed="300">
           <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-02.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="top center">
-          <div class="tp-caption lft custom_large_white_bg_dark boxshadow" data-x="center" data-y="center" data-speed="300" data-start="500">Getaria es <strong>Historia</strong></div>
+          <div class="tp-caption lft custom_large_white_bg_dark boxshadow" data-x="center" data-y="center" data-speed="300" data-start="500"><?php print t('Getaria is <strong>History</strong>'); ?></div>
       </li>
                               
 	    <li data-transition="fade"
           data-slotamount="10"
           data-masterspeed="300">
 		      <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-03.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
-          <div class="tp-caption lft custom_large_white_bg_dark boxshadow" data-x="center" data-y="center" data-speed="300" data-start="500">Getaria es <strong>Gastronomía</strong></div>
+          <div class="tp-caption lft custom_large_white_bg_dark boxshadow" data-x="center" data-y="center" data-speed="300" data-start="500"><?php print t('Getaria is <strong>Gastronomy</strong>'); ?></div>
       </li>
 
       <li data-transition="fade"
