@@ -115,7 +115,8 @@ jQuery(document).ready(function($) {
          fullScreen:"off",
          fullScreenOffsetContainer:"#topheader-to-offset",
  
-         shadow:0
+         shadow:0,
+         hideTimerBar: "on"
 
   })
 });

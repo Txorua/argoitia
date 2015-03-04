@@ -236,12 +236,6 @@
 
 <footer>
   <div class="container">
-    <div class="row">
-      <div class='footer-ribon'>
-        <span>GETARIA3D <a href="http://www.getaria3d.com"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/earth-icon-x18.png" align="absmiddle"></a></span>
-      </div>
-    </div>
-
     <div class='row'>
       <?php print render($page['footer']); ?>
     </div>

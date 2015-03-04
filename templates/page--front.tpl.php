@@ -166,33 +166,24 @@
 </header><!-- End of The Header -->
 
 <main>
-<div class="container-fluid">
-<div class="row">
 <?php print theme_render_template(path_to_theme() . '/templates/partials/slider-revolution.tpl.php', $variables = array()); ?>
-</div>
-</div>
-</div>
 </main>
 
 <footer>
   <div class="container">
-    <div class="row">
-      <div class='footer-ribon'>
-        <span>GETARIA3D <a href="http://www.getaria3d.com"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/earth-icon-x18.png" align="absmiddle"></a></span>
-      </div>
-    </div>
     <div class='row'>
       <?php print render($page['footer']); ?>
     </div>
     <div class='footer-copyright'>
       <div class='row'>
         <div class='col-md-12'>
-          <p class="text-center"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-logos.png" usemap="#Map">
+          <p class="text-center"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-logos.png" usemap="#Map" class="img-responsive center-block">
             <map name="Map">
               <area shape="rect" coords="109,9,224,59" href="#" target="http://www.getaria.net">
               <area shape="rect" coords="242,7,341,59" href="#" target="http://www.juansebastianelkano.com">
             </map>
-            <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-sponsors.png" alt="">
+<br/>
+            <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-sponsors.png" alt="" class="img-responsive center-block">
           </p>
         </div>
       </div>

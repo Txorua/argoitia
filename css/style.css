@@ -432,6 +432,10 @@ font-size:36px;
 letter-spacing: 3px;
 }
 
+div.slider-container .tp-bullets {
+  z-index: 100;
+}
+
 /**
  * Hoteles
  */
