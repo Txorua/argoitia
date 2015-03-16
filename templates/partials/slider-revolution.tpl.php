@@ -92,7 +92,7 @@
 	    <li data-transition="fade"
           data-slotamount="10"
 	        data-masterspeed="300">
-	        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-11.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
+	        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/slider-revolution/slide-11b.jpg" data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center center">
 	        <div class="caption fade tp-caption start"
                data-x="100"
                data-y="165"
