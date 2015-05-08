@@ -287,7 +287,7 @@
         <div class='social-icons'>
           <ul class='list-inline'>
           <span class="h4"><?php print t('Follow us'); ?>&hellip;</span>
-            <li class='facebook'><a href='https://www.facebook.com/Getariako.Udala' target='_blank' data-placement='bottom' rel='tooltip' title='Facebook'>Facebook</a></li>
+            <li class='facebook'><a href='https://www.facebook.com/pages/Getaria-Turismo-Getariako-Turismoa/878603345547485' target='_blank' data-placement='bottom' rel='tooltip' title='Facebook'>Facebook</a></li>
           </ul>
         </div>
       </div>
