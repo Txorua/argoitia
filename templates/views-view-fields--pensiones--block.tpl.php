@@ -39,7 +39,8 @@
 
 <div class="col-xs-12">
 <div class="panel panel-default">
-  <div class="panel-heading">
+  <div class="panel-heading" role="tab" id="heading<?php print $row->nid; ?>">
+    <div class="panel-title">
     <h4>
       <span class="h3"><span class="icon fontello icon-h-sigh text-primary"> </span></span>
       <div style="display: inline-block">
@@ -49,7 +50,7 @@
           }
         ?>
       </div>
-      <strong class="h3"><?php print $row->field_title_field[0]['raw']['value']; ?></strong>
+      <strong class="h3"><a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php print $row->nid; ?>" aria-expanded="true" aria-controls="collapse<?php print $row->nid; ?>"><?php print $row->field_title_field[0]['raw']['value']; ?></a></strong>
       <?php if (!empty($row->field_field_calidad_turistica)): ?>
       <ul class="list-inline list-unstyled pull-right">
       <?php
@@ -82,8 +83,10 @@
         <?php endif; ?>
       </div>
     </div>
+    </div>
   </div>
 
+  <div id="collapse<?php print $row->nid; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php print $row->nid; ?>">
   <div class="panel-body">
     <div class="row">
 
@@ -200,7 +203,8 @@
 
         
       </div><!-- Fin md4 -->
-	</div>
+    </div>
+  </div>
   </div>
 </div>
 </div>
