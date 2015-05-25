@@ -195,7 +195,7 @@
             <ul class='contact list-unstyled'>
               <li><span class="glyphicon glyphicon-home">&nbsp;</span>Gudarien Enparantza, 1  20808 GETARIA, Gipuzkoa</li>
               <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 89 60 24 </li>
-              <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">gro.airateg@aladu</a></li>
+              <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:udala@getaria.eus'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">sue.airateg@aladu</a></li>
             </ul>
           </div>
         </div>
@@ -205,7 +205,7 @@
             <ul class='contact list-unstyled'>
               <li><span class="glyphicon glyphicon-home">&nbsp;</span>Aldamar parkea 2 20808 GETARIA, Gipuzkoa</li>
               <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 14 09 57 </li>
-              <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:turismogetaria@euskalnet.net'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">ten.tenlaksue@airategomsirut</a></li>
+              <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:info@getariaturismo.eus'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">seu.omsirutairateg@ofni</a></li>
             </ul>
           </div>
         </div>
