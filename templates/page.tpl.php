@@ -260,7 +260,7 @@
           <ul class='contact list-unstyled'>
             <li><span class="glyphicon glyphicon-home">&nbsp;</span>Gudarien Enparantza, 1  20808 GETARIA, Gipuzkoa</li>
             <li><i class='glyphicon glyphicon-earphone'>&nbsp;</i><?php print t('Phone'); ?> :  (+34) 943 89 60 24 </li>
-            <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:udala@getaria.eus'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">seu.ariateg@aladu</a></li>
+            <li><i class='glyphicon glyphicon-envelope'>&nbsp;</i>Email : <a href='mailto:udala@getaria.eus'><span style="unicode-bidi:bidi-override; direction: rtl;" class="email-obfuscator-unreverse">seu.airateg@aladu</a></li>
           </ul>
         </div>
       </div>
