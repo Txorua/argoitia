@@ -177,12 +177,13 @@
     <div class='footer-copyright'>
       <div class='row'>
         <div class='col-md-12'>
-          <p class="text-center"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-logos.png" usemap="#Map">
+          <p class="text-center"><img class="img-responsive" src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-logos.png" usemap="#Map">
             <map name="Map">
               <area shape="rect" coords="109,9,224,59" href="#" target="http://www.getaria.net">
               <area shape="rect" coords="242,7,341,59" href="#" target="http://www.juansebastianelkano.com">
             </map>
-            <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-sponsors.png" alt="">
+<br/>
+            <img class="img-responsive" src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-sponsors.png" alt="">
           </p>
         </div>
       </div>
