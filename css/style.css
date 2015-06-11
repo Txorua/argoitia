@@ -34,8 +34,13 @@ header.container-fluid {
   padding-top: 151px;
 }
 header.container-fluid .row.white {
-  background: url(../images/header-bg.jpg) no-repeat;
-  background-size: cover;
+  background-color: black;
+}
+@media (min-width: 992px) {
+  header.container-fluid .row.white {
+    background: url(../images/header-bg.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 #navbar {
