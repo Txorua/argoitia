@@ -67,8 +67,8 @@ jQuery(document).ready(function($) {
          thumbAmount:3,
  
          hideThumbsOnMobile:"off",
-         hideBulletsOnMobile:"off",
-         hideArrowsOnMobile:"off",
+         hideBulletsOnMobile:"on",
+         hideArrowsOnMobile:"on",
          hideThumbsUnderResoluition:0,
  
          hideThumbs:0,
@@ -76,8 +76,8 @@ jQuery(document).ready(function($) {
  
          keyboardNavigation:"on",
  
-         navigationType:"bullet",
-         navigationArrows:"solo",
+         navigationType:"none",
+         navigationArrows:"none",
          navigationStyle:"round",
  
          navigationHAlign:"center",
