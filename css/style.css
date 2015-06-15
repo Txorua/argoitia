@@ -636,6 +636,43 @@ div.slider-container .tp-bullets {
 }
 
 /**
+ * Eventos
+ */
+.node-evento h2 a,
+.node-evento header h1 a, 
+.node-evento .node-readmore a {
+  color: #6f6037;
+}
+.node-evento.teaser header {
+  text-align: center;
+}
+.node-evento.teaser header img {
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+#block-system-main .pagination a {
+  background-color: #6f6037;
+  color: white;
+}
+#block-system-main .pagination a {
+  background-color: #6f6037;
+}
+#block-system-main .pagination > .active > a ,
+#block-system-main .pagination > a {
+  border-color: white;
+}
+#eventos {
+  background-color: #e6decc;
+}
+#block-system-main {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/**
  * Content language links
  *
  * Están activos por defevto y no se pueden desactivar debido a

@@ -226,6 +226,14 @@ function argoitia_preprocess_views_view_fields(&$variables) {
 
 }
 
+function argoitia_preprocess_block(&$variables) {
+  $block = $variables['block'];
+
+  if ($variables['is_front'] && $block->delta == 'main') {
+    $variables['content'] = '<div class="row">' . $variables['content'] . '</div>';
+  }
+}
+
 /*function argoitia_preprocess_views_view_field(&$variables) {
 
   if (($variables['view']->name == 'hoteles') && (property_exists($variables['field'],'field_info')) && ($variables['field']->field_info['field_name'] == 'field_servicios_alojamiento')) {
