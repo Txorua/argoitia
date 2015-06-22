@@ -33,7 +33,7 @@
       </h4>
     </div>
 
-    <div id="restaurantes-accordion-<?php print $row->nid; ?>" class="panel-collapse collapse">
+    <div id="restaurantes-accordion-<?php print $row->nid; ?>" class="panel-collapse in">
       <div class="panel-body">
       <?php if ($fields['field_descripcion']->content): ?>
       <div class="h4 breadcrumb">

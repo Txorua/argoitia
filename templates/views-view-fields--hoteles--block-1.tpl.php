@@ -86,7 +86,7 @@
     </div>
   </div>
 
-  <div id="collapse<?php print $row->nid; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php print $row->nid; ?>">
+  <div id="collapse<?php print $row->nid; ?>" class="panel-collapse in" role="tabpanel" aria-labelledby="heading<?php print $row->nid; ?>">
   <div class="panel-body">
     <div class="row">
 

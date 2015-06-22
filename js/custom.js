@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
-function parallax() {
-
+  function parallax() {
 		$(window).load(function () {
 
 			if($(".parallax").get(0)) { 
@@ -18,12 +17,8 @@ function parallax() {
 				}
 			}
 		});
-		
-
 	}
-	
 	parallax();
-
 });
 
 jQuery(document).ready(function($) {
@@ -51,6 +46,7 @@ jQuery(document).ready(function($) {
 		}
 		
 	});
+});
 
 jQuery(document).ready(function($) {
   $("#revolutionSlider").get(0) && $("#revolutionSlider").revolution({
@@ -121,5 +117,15 @@ jQuery(document).ready(function($) {
   })
 });
 
+jQuery(document).ready(function($) {
+  $('.panel-collapse').on('in', function (e) {
+      $('.geo').each(function() {
+          $(this).get(0).src = $(this).attr('src');
+      });     
+  });
+});
 
+
+jQuery(document).ready(function($) {
+    setTimeout(function() {$('.panel-collapse.in').removeClass('in').addClass('collapse');}, 1000);
 });

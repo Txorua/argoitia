@@ -24,7 +24,7 @@
  * @ingroup views_templates
  */
 ?>
-<?php //dsm($row); ?>
+<?php //dpm($row); ?>
 <?php foreach ($fields as $id => $field): ?>
   <?php if (!empty($field->separator)): ?>
     <?php print $field->separator; ?>
@@ -86,7 +86,7 @@
     </div>
   </div>
 
-  <div id="collapse<?php print $row->nid; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php print $row->nid; ?>">
+  <div id="collapse<?php print $row->nid; ?>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading<?php print $row->nid; ?>">
   <div class="panel-body">
     <div class="row">
 
