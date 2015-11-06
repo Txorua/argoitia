@@ -31,8 +31,14 @@ a.unstyled {
 header.container-fluid {
   margin-left: 15px;
   margin-right: 15px;
-  padding-top: 151px;
+  /*padding-top: 151px;*/
 }
+@media (min-width: 768px) {
+  header.container-fluid {
+    padding-top: 151px;
+  }
+}
+
 header.container-fluid .row.white {
   background-color: black;
 }

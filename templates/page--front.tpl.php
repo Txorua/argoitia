@@ -169,7 +169,7 @@
 <?php print theme_render_template(path_to_theme() . '/templates/partials/slider-revolution.tpl.php', $variables = array()); ?>
 <section id="eventos">
 <div class="container">
-<?php print render($page['content']); ?>
+<?php //print render($page['content']); ?>
 </div>
 </section>
 </main>

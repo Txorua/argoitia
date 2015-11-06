@@ -1,4 +1,5 @@
-<div class="fullwidthbanner-container slider-container">
+<div class="fullscreen-container">
+<div class="fullscreenbanner slider-container">
   <div class="slider" id="revolutionSlider">
 
     <ul>
@@ -106,5 +107,6 @@
 
   <div class="tp-bannertimer tp-bottom"></div>
   </div>
+</div>
 </div><!-- fin slider -->
 

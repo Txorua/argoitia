@@ -52,9 +52,8 @@ jQuery(document).ready(function($) {
   $("#revolutionSlider").get(0) && $("#revolutionSlider").revolution({
          delay:9000,
          startwidth:960,
-         startheight:480,
-         autoHeight:"off",
-         fullScreenAlignForce:"off",
+         autoHeight:"on",
+         fullScreenAlignForce:"on",
  
          onHoverStop:"on",
  
@@ -106,9 +105,9 @@ jQuery(document).ready(function($) {
  
          dottedOverlay:"none",
  
-         fullWidth:"off",
-         forceFullWidth:"off",
-         fullScreen:"off",
+         fullWidth:"on",
+         forceFullWidth:"on",
+         fullScreen:"on",
          fullScreenOffsetContainer:"#topheader-to-offset",
  
          shadow:0,
