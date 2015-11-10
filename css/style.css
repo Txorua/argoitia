@@ -641,6 +641,10 @@ div.slider-container .tp-bullets {
   margin-bottom: 1em;
 }
 
+article.node.node-page footer {
+  display: none;
+}
+
 /**
  * Eventos
  */
