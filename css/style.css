@@ -815,3 +815,11 @@ li[class^="translation_"] {
     min-height: 0;
   }*/
 }
+
+/**
+ * Vídeos centrados
+ */
+.video-center {
+  display: block;
+  margin: 0 auto;
+}
