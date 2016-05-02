@@ -130,6 +130,11 @@ function argoitia_preprocess_page(&$variables) {
 	//EOF:Javascript
 }
 
+function argoitia_field__field_fecha_evento__evento(&$variables) {
+  $output = '<div style="margin-bottom: 3em;"><span>' . t('Published on') . '</span>: ' . $variables['items'][0]['#markup'] . '</div>';
+  return $output;
+}
+
 function argoitia_preprocess_views_view(&$variables) {
   if (isset($variables['view']->name)) {
     $function = 'argoitia_preprocess_views_view__'.$variables['view']->name; 
