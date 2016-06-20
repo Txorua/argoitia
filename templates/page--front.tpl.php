@@ -85,6 +85,7 @@
         </a>
     </div>
 
+    
     <div class="col-xs-12 col-sm-8 col-md-7">
       <div class="hidden-xs col-sm-12 clearfix">
         <nav class="header-links">
@@ -102,7 +103,7 @@
           </ul>
         </nav>
       </div>
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-6 col-md-4 pull-right">
         <nav class="header-links">
           <ul class="nav nav-pills nav-top pull-right h5">
             <?php if (!empty($language_links)): ?>
@@ -110,6 +111,11 @@
             <?php endif ?>
           </ul>
         </nav>
+      </div>
+      <div class="hidden-xs col-sm-2 col-md-2 pull-right" style="margin-bottom: 1em;">
+        <a class="" href="http://www.costavasca.org" title="Costa Vasca" style="padding: 1em;" target="_blank">
+          <img src="<?php print base_path(); ?>sites/default/files/Kosta-gastronomika.png" alt="Kosta Gastronomika" class="img-responsive pull-right" />
+        </a>
       </div>
     </div>
 
