@@ -110,8 +110,28 @@
             <?php endif ?>
           </ul>
         </nav>
-        <div class="hidden-xs pull-right" style="margin-bottom: 1em; max-width: 64px;">
-          <a class="" href="http://www.costavasca.org" title="Costa Vasca" target="_blank">
+        <div class="hidden-xs pull-right" style="margin-bottom: 1em; margin-right: 5%; max-width: 64px;">
+        <?php
+              global $language;
+              $url = '';
+              switch ($language->language) {
+                case 'es':
+                  $url = "http://www.costavasca.org/encrucijada-de-sabores";
+                  break;
+                case 'eu':
+                  $url = "http://kostaldea.eu/zaporeen-bidegurutzeak";
+                  break;
+                case 'en':
+                  $url = "http://en.costavasca.org/a-crossroad-of-flavours";
+                  break;
+                case 'fr':
+                  $url = 'http://fr.costavasca.org/un-carrefour-de-saveurs';
+                  break;
+                default:
+                  $url = "http://www.costavasca.org/encrucijada-de-sabores";
+              }
+          ?>
+            <a class="" href="<?php print $url; ?>" title="Costa Vasca" target="_blank">
             <img src="<?php print base_path(); ?>sites/default/files/Kosta-gastronomika.png" alt="Kosta Gastronomika" class="img-responsive pull-right" />
           </a>
         </div>
