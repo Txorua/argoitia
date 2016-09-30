@@ -142,7 +142,7 @@
       <a class="col-sm-6" href="http://www.getaria.eus" title="Getariako Udala" style="padding: 1em 0;">
         <img src="<?php print base_path(); ?>sites/default/files/logo-udala.png" alt="Getariako Udala" class="img-responsive pull-right" />
       </a>
-      <a class="col-sm-6" href="http://jse.txorua.com" title="Juan Sebastián Elkano" style="padding: 1em 0;">
+      <a class="col-sm-6" href="http://jse.getariaturismo.eus" title="Juan Sebastián Elkano" style="padding: 1em 0;">
         <img src="<?php print base_path(); ?>sites/default/files/logo-elkano.png" alt="Juan Sebastián Elkano" class="img-responsive pull-right" />
       </a>
     </div>
@@ -274,7 +274,7 @@
               <area shape="rect" coords="242,7,341,59" href="#" target="http://www.juansebastianelkano.com">
             </map>
             <img class="img-responsive col-sm-5" src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-sponsors.png" alt="">
-           
+
           </p>
         </div>
       </div>
@@ -290,7 +290,7 @@
           </ul>
         </div>
       </div>
-	  
+
 	     <div class='col-md-5'>
         <div class='contact-details'>
           <p class="text-info lead"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Getariako Turismo Bulegoa</p>
@@ -301,9 +301,9 @@
           </ul>
         </div>
       </div>
-	 </div> 
-	  
-	  
+	 </div>
+
+
 
 <hr>
 

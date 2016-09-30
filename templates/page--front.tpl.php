@@ -85,7 +85,7 @@
         </a>
     </div>
 
-    
+
     <div class="col-xs-12 col-sm-8 col-md-7">
       <div class="hidden-xs col-sm-12 clearfix">
         <nav class="header-links">
@@ -143,7 +143,7 @@
       <a class="col-sm-6" href="http://www.getaria.eus" title="Getariako Udala" style="padding: 1em 0;">
         <img src="<?php print base_path(); ?>sites/default/files/logo-udala.png" alt="Getariako Udala" class="img-responsive pull-right" />
       </a>
-      <a class="col-sm-6" href="http://jse.txorua.com" title="Juan Sebastián Elkano" style="padding: 1em 0;">
+      <a class="col-sm-6" href="http://jse.getariaturismo.eus" title="Juan Sebastián Elkano" style="padding: 1em 0;">
         <img src="<?php print base_path(); ?>sites/default/files/logo-elkano.png" alt="Juan Sebastián Elkano" class="img-responsive pull-right" />
       </a>
     </div>
@@ -239,7 +239,7 @@
             </ul>
           </div>
         </div>
-	     </div> 
+	     </div>
        <hr>
        <div class="row">
          <div class='col-md-3'>
