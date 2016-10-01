@@ -126,6 +126,9 @@ footer div.footer-ribon span {
   font-size: 1.6em;
   letter-spacing: 0.15em;
 }
+.footer-copyright img {
+  margin-top: 1em;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -301,9 +304,9 @@ footer div.footer-ribon span {
 	opacity: 0.001;
 	-webkit-backface-visibility: hidden;
 	/* ideally, transition speed should match zoom duration */
-	-webkit-transition: all 0.3s ease-out; 
-	-moz-transition: all 0.3s ease-out; 
-	-o-transition: all 0.3s ease-out; 
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
 
@@ -314,7 +317,7 @@ footer div.footer-ribon span {
 		opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
@@ -372,7 +375,7 @@ div.slider-container {
   padding:    0;
   position:   relative;
 }
-div.slider-container ul { 
+div.slider-container ul {
   list-style:none;
   margin:     0;
   padding:    0;
@@ -415,7 +418,7 @@ div.slider-container div.bottom-label {
 	font-weight: 300;
 }
 div.slider-container div.caption a,
-div.slider-container div.caption a:hover { 
+div.slider-container div.caption a:hover {
   color: #FFF;
 }
 
@@ -491,7 +494,7 @@ div.slider-container .tp-bullets {
  .header-links .nav > li > a {
    padding: 5px 7px;
  }
- 
+
  /**
   * Titulos del front
   */
@@ -513,8 +516,8 @@ div.slider-container .tp-bullets {
  }
  .caja-titulos-front:hover p {
  	 color: white;
-    
-} 
+
+}
 
 /**
  * Playas
@@ -523,7 +526,7 @@ div.slider-container .tp-bullets {
  line-height: 1.4em;
  margin-bottom: 0.4em;
  }
- 
+
  /**
   * Patrimonio isotopo
   */
@@ -650,7 +653,7 @@ article.node.node-page footer {
  * Eventos
  */
 .node-evento h2 a,
-.node-evento header h1 a, 
+.node-evento header h1 a,
 .node-evento .node-readmore a {
   color: #6f6037;
 }
@@ -742,7 +745,7 @@ li[class^="translation_"] {
     border-top: solid 0.1em #d3b866;
   }
 
-  /*.navbar-wrapperX .navbar-headerX, 
+  /*.navbar-wrapperX .navbar-headerX,
   .navbar-wrapper .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 4px;
@@ -796,7 +799,7 @@ li[class^="translation_"] {
   .carousel.carousel-hotel .item {
     height: 256px;
   }
-  
+
   #languages {
   	padding-top: 2.8em;
   }

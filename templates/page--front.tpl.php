@@ -206,16 +206,14 @@
       <?php print render($page['footer']); ?>
     </div>
     <div class='footer-copyright'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <p class="text-center"><img class="img-responsive col-sm-7" src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-logos.png" usemap="#Map">
-            <map name="Map">
-              <area shape="rect" coords="109,9,224,59" href="#" target="http://www.getaria.net">
-              <area shape="rect" coords="242,7,341,59" href="#" target="http://www.juansebastianelkano.com">
-            </map>
-            <img class="img-responsive col-sm-5" src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariako-sponsors.png" alt="">
-          </p>
-        </div>
+      <div class='row text-center'>
+        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariaturismo.png">
+        <a href="http://www.getaria.eus" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariakoudala.png"></a>
+        <a href="http://jse.getaria.eus" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/elkano.png"></a>
+        <a href="http://turismo.euskadi.eus" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/euskadibasquecountry.png"></a>
+        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/calidadturistica.png">
+        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/euskadigastronomika.png">
+        <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/surfingeuskadi.png">
       </div>
       <hr>
       <div class="row">
