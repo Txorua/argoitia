@@ -268,7 +268,7 @@
       <div class='row text-center'>
         <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariaturismo.png">
         <a href="http://www.getaria.eus" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/getariakoudala.png"></a>
-        <a href="http://jse.getaria.eus" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/elkano.png"></a>
+        <a href="http://www.juansebastianelkano.com" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/elkano.png"></a>
         <a href="http://turismo.euskadi.eus" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/euskadibasquecountry.png"></a>
         <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/calidadturistica.png">
         <img src="<?php print base_path() . drupal_get_path('theme', 'argoitia'); ?>/images/euskadigastronomika.png">
