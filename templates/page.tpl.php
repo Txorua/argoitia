@@ -143,7 +143,7 @@
       <a class="col-sm-6" href="http://www.getaria.eus" title="Getariako Udala" style="padding: 1em 0;">
         <img src="<?php print base_path(); ?>sites/default/files/logo-udala.png" alt="Getariako Udala" class="img-responsive pull-right" />
       </a>
-      <a class="col-sm-6" href="http://jse.getariaturismo.eus" title="Juan Sebastián Elkano" style="padding: 1em 0;">
+      <a class="col-sm-6" href="http://www.juansebastianelkano.com" title="Juan Sebastián Elkano" style="padding: 1em 0;">
         <img src="<?php print base_path(); ?>sites/default/files/logo-elkano.png" alt="Juan Sebastián Elkano" class="img-responsive pull-right" />
       </a>
     </div>
