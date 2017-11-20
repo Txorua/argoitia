@@ -317,11 +317,23 @@
 
       <div class='col-md-4 pull-right'>
           <nav id='sub-menu'>
+            <?php
+              global $language;
+              $lang= $language->language;
+
+              $legales = translation_node_get_translations(583);
+              $nid = $legales[$lang]->nid;
+              $legal = drupal_get_path_alias('node/' . $nid);
+
+              $cookies = translation_node_get_translations(587);
+              $nid = $cookies[$lang]->nid;
+              $cookie = drupal_get_path_alias('node/' . $nid);
+            ?>
             <ul class="list-inline">
-            <li><a href="#"><?php print t('Map'); ?></a> </li>
-            <li><a href="#"><?php print t('Legal'); ?></a></li>
-            <li><a href="#"><?php print t('Privacy'); ?></a></li>
-            <li><a href="/<?php print $language->language; ?>/contact"><?php print t('Contact'); ?></a></li>
+              <li><a href="#"><?php print t('Map'); ?></a> </li>
+              <li><a href="<?php print "/" . $lang . '/' . $legal; ?>"><?php print t('Legal'); ?></a></li>
+              <li><a href="<?php print "/" . $lang . '/' . $cookie; ?>"><?php print t('Privacy'); ?></a></li>
+              <li><a href="/<?php print $language->language; ?>/contact"><?php print t('Contact'); ?></a></li>
             </ul>
           </nav>
         </div>
