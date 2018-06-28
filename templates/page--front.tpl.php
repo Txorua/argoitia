@@ -198,6 +198,34 @@
 <?php //print render($page['content']); ?>
 </div>
 </section>
+<section style="padding-top: 50px; padding-bottom: 50px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-3">
+        <style>
+          /* Vídeos */
+          .YTvideos {
+            position: relative;
+            padding-bottom: 50%;
+            padding-top: 30px; height: 0; overflow: hidden;
+          }
+          .YTvideos iframe,
+          .YTvideos object,
+          .YTvideos embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        </style>
+      	<div class="YTvideos">
+          <iframe src="https://player.vimeo.com/video/277336592" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    	</div>
+    </div>
+  </div>
+</section>
 </main>
 
 <footer>
