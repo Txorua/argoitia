@@ -201,7 +201,7 @@
 <section style="padding-top: 50px; padding-bottom: 50px;">
   <div class="container">
     <div class="row">
-      <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-3">
+      <div class="col-xs-12 col-md-10 col-md-push-1" style="padding: 0;">
         <style>
           /* Vídeos */
           .YTvideos {
